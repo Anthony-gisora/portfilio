@@ -194,6 +194,7 @@ footer{
 
 @media screen and (max-width:480px) {
     nav{
+        height: 4vh;
         justify-content: space-around;
     }
     .icon{
