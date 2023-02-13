@@ -185,3 +185,9 @@ footer{
     color: whitesmoke;
 }
 
+.buttons button a, .leftContent button a{
+    background-color: transparent;
+    
+
+
+}
