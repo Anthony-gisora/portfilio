@@ -191,3 +191,60 @@ footer{
 
 
 }
+
+@media screen and (max-width:480px) {
+    nav{
+        justify-content: space-around;
+    }
+    .icon{
+        margin: 2px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    ul{
+        justify-content: space-around;
+        padding: 2px;
+    }
+    li{
+        margin-left: 13px;
+        
+    }
+    li:nth-child(5){
+        margin-right: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+        text-align: center;
+    }
+    .container{
+        height: 90vh;
+        padding: 10px;
+       
+    }
+    .container h1{
+        font-size: 40px;
+    }
+    
+    .container p{
+        font-size: 20px;
+    }
+
+    footer{
+
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .leftContent, .rightContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
